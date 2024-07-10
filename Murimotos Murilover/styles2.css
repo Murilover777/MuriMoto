@@ -1,0 +1,87 @@
+
+body{
+  background-image: url(./assets/fundo2.png); 
+  background-repeat: repeat-y; 
+  background-size: 100%
+}
+
+.cabecario{
+  margin-top: 7vh;
+  font-family: 'Inter', sans-serif;
+  font-weight: medium;
+}
+
+*{
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+}
+.link{
+  text-decoration: none;
+  color: white;
+  margin-right: 4vw;
+  transition: 0.5s;
+ }
+
+ .link:hover{
+  color:rgb(175, 174, 174);
+ }
+
+.alinhar{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.produtos{
+  font-weight: bold;
+  font-size: 2vw;
+  background-color: white;
+  padding: 2vh 10vw 2vh 10vw;
+  border-radius: 10px;
+  color: rgb(139, 139, 139);
+  margin-top: 10vh;
+}
+
+.slotsarea{
+  width: 56vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.slot{
+  padding: 20px;
+  background-color: white;
+  height: 40vh;
+  border-radius: 10px;
+  transition: 0.5s;
+  margin-right: 1vw;
+  margin-bottom: 3vh;
+  transition: 0.5s;
+}
+
+.categoria{
+  font-size: 12px;
+}
+
+.tituloslot{
+  color: #4A99D3;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
+
+.preco{
+  font-weight: bold;
+}
+
+.slot img{
+  width: 11vw;
+  object-fit: cover;
+}
+
+.slot:hover{
+  transition: 0.5s;
+  border: 2px solid #6aafe0;
+}

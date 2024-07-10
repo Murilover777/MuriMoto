@@ -1,0 +1,78 @@
+*{
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+}
+body{
+  background-image: url(./assets/fundo4.png); 
+  background-repeat: no-repeat; 
+  background-size: 100%;
+  border: none;
+}
+
+.cabecario{
+  margin-top: 7vh;
+  font-family: 'Inter', sans-serif;
+  font-weight: medium;
+}
+
+.link{
+  text-decoration: none;
+  color: white;
+  margin-right: 4vw;
+  transition: 0.5s;
+ }
+
+ .link:hover{
+  color:rgb(175, 174, 174);
+ }
+
+ .formulario{
+  width: 25vw;
+  height: 70vh;
+  background-color: white;
+  border-radius: 15px;
+  margin:6vh 0 0 12vw;
+  padding: 3vw 0 0 0;
+  text-align: center;
+
+ }
+
+ .formulario input{
+  margin-top: 4vh;
+  width: 20vw;
+  height: 5vh;
+  border: 1px solid rgb(133, 133, 133);
+  border-radius: 5px;
+  padding-left: 10px;
+ }
+
+ .nome{
+  width: 10vw !important;
+}
+
+.bemvindo{
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: -2vh;
+}
+
+.Enviar{
+  text-decoration: none;
+  color: white;
+  background-color: #4A99D3;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+ 
+ }
+
+ .Enviar:hover{
+  transition: 0.5s;
+  background-color: #2d79af;
+ }
+
+ #a{
+  margin-bottom: 8vh;
+ }

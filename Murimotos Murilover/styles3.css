@@ -1,0 +1,75 @@
+*{
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+}
+body{
+  background-image: url(./assets/fundo3.png); 
+  background-repeat: no-repeat; 
+  background-size: 100%
+}
+
+.cabecario{
+  margin-top: 7vh;
+  font-family: 'Inter', sans-serif;
+  font-weight: medium;
+}
+
+.link{
+  text-decoration: none;
+  color: white;
+  margin-right: 4vw;
+  transition: 0.5s;
+ }
+
+ .link:hover{
+  color:rgb(175, 174, 174);
+ }
+
+ .formulario{
+  width: 600px;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 6vw;
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  text-align: center;
+  border-right: 1px solid #2d79af;
+ }
+
+ .titulo{
+  margin-top: 5vh;
+  color: #4A99D3;
+ }
+
+ .formulario input{
+  margin-top: 2vh;
+  height: 30px;
+  width: 300px;
+  border-radius: 3px;
+  border: 1px solid silver;
+  padding: 5px;
+ }
+
+ #msg{
+  height: 80px;
+  margin-bottom: 4vh;
+ }
+
+ .Enviar{
+  text-decoration: none;
+  color: white;
+  background-color: #4A99D3;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+ }
+
+ .Enviar:hover{
+  transition: 0.5s;
+  background-color: #2d79af;
+ }
