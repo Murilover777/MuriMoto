@@ -1,0 +1,44 @@
+
+body{
+  background-image: url(./assets/fundo.png); 
+  background-repeat: no-repeat; 
+  background-size: 100%
+}
+
+.cabecario{
+  margin-top: 7vh;
+  font-family: 'Inter', sans-serif;
+  font-weight: medium;
+}
+
+.link{
+  text-decoration: none;
+  color: white;
+  margin-right: 4vw;
+  transition: 0.5s;
+ }
+
+ .link:hover{
+  color:rgb(175, 174, 174);
+ }
+
+.seja{
+  margin-left: 2vw;
+  margin-top: 45vh;
+  font-size: 3vw;
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+  color: white;
+}
+
+  .estrela{
+    margin-left: 1vw;
+  }
+
+  .desc{
+    margin-top: -1vw;
+    margin-left: 2vw;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+  }
